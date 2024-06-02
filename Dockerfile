@@ -1,4 +1,4 @@
-FROM docker.io/myoung34/github-runner:ubuntu-noble
+FROM --platform=$BUILDPLATFORM docker.io/myoung34/github-runner:ubuntu-noble
 
 ENV MOCKERY_BINARY_VER=2.43.2
 
